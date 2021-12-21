@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Du lịch Việt Nam - Giới thiệu</title>
+
+	<meta charset="UTF-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+	<!-- import google fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Open+Sans:ital,wght@0,400;0,500;0,700;0,800;1,400;1,700&family=Twinkle+Star&display=swap" rel="stylesheet">
+	<!-- stop import google fonts -->
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-NYKY8LPQ0Y"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-NYKY8LPQ0Y');
+	</script>
+	<!-- end of google analytics -->
+
+	<!-- get bootstrap5 -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+	<!-- stop get bootstrap -->
+</head>
+<body>
+	<!-- Load sdk javascript for facebook plugin-->
+	<div id="fb-root"></div>
+	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v12.0" nonce="ECXKzfia"></script>
+	<!-- end of loading js -->
+	<header>
+		<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+		  <div class="container">
+		    <img src="images/vietnam.png" width="50" height="50" alt="vietnam">
+		    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		      <span class="navbar-toggler-icon"></span>
+		    </button>
+		    <div class="collapse navbar-collapse nav-ul-wrapper" id="navbarSupportedContent">
+		      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+		        <li class="nav-item border-end">
+		          <a class="nav-link active navli text-center" aria-current="page" href="index.html">Trang chủ</a>
+		        </li>
+		        <li class="nav-item border-end">
+		          <a class="nav-link navli text-center" href="qa.html">Hỏi đáp</a>
+		        </li>
+		       	<li class="nav-item border-end">
+		          <a class="nav-link navli text-center" href="about.html">Chúng tôi</a>
+		        </li>
+	<!-- 	        <li class="nav-item">
+		          <a class="nav-link disabled">Disabled</a>
+		        </li> -->
+		      </ul>
+	<!-- 	      <form class="d-flex">
+		        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+		        <button class="btn btn-outline-success" type="submit">Search</button>
+		      </form> -->
+		    </div>
+		  </div>
+		</nav>
+	</header>
+	
+	<main>
+		<!-- This section is for banner -->
+		<div class="container-fluid banner">
+			<div class="container banner-content-wrapper">
+				<div class="banner-content">
+					Tận hưởng Việt Nam ngay bây giờ. Đừng chần chờ.
+				</div>
+			</div>
+		</div>
+		<!-- this section is for places -->
+		<section id="places-wrapper" class="container">
+			<div class="sec-article">
+				<img class="star-icon" src="images/star.png" alt="star">
+				Những địa điểm phải ghé qua!
+			</div>
+			<div class="row">
+				<div class="col-lg-4 col-sm-12 place-img-wrapper">
+					<a href="hanoi.html"><img class="place-img" src="images/hanoi1.jpg" alt="Hà nội"></a>  
+					<h3 class="place-img-text">Hà nội cổ kính</h3>
+				</div>
+				<div class="col-lg-4 col-sm-12 place-img-wrapper">
+					<a href="hue.html"><img class="place-img" src="images/hue.jpg" alt="Huế"></a>
+					<h3 class="place-img-text">Huế mộng mơ</h3>
+				</div>
+				<div class="col-lg-4 col-sm-12 place-img-wrapper">
+					<a href="saigon.html"><img class="place-img" src="images/saigon.jpg" alt="Sài Gòn"></a>
+					<h3 class="place-img-text">Sài Gòn năng động</h3>
+				</div>
+			</div>
+		</section>
+		<!-- this section is for food -->
+		<section id="places-wrapper" class="container">
+			<div class="sec-article">
+				<img class="star-icon" src="images/bread.png" alt="star">
+				Khám phá nền ẩm thực phong phú
+			</div>
+			<div class="row">
+				<div class="col-lg-6 col-sm-12 food-col1-wrapper">
+					<img class="food-img" src="images/pho.jpg" alt="Phở">
+					<h3 class="food-img-text">Phở</h3>
+				</div>
+				<div class="col-lg-6 col-sm-12 food-col2-wrapper">
+					<div class="row food-img-wrapper">
+						<img class="food-img" src="images/banhmi.jpg" alt="Bánh mì">
+						<h3 class="food-img-text">Bánh mì</h3>
+					</div>
+					<div class="row food-img-wrapper">
+						<img class="food-img" src="images/buncha.jpg" alt="Bún chả">
+						<h3 class="food-img-text">Bún chả</h3>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- end of food section -->
+	</main>
+
+<footer>
+	<div class="container-fluid mfooter text-center bg-light">
+		<h4>Vietnam Traveling Agency - FX14966</h4>
+		Share us on Facebook 
+		<div class="fb-share-button" data-href="https://hadevsoft.000webhostapp.com/" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fhadevsoft.000webhostapp.com%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Chia sẻ</a></div>
+	</div>
+</footer>
+
+</body>
+</html>

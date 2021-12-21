@@ -1,0 +1,197 @@
+.navli {
+	width: 7rem;
+
+}
+
+.nav-ul-wrapper {
+	margin-left: 2rem;
+}
+nav li {
+	font-family: 'Open Sans', sans-serif; 	
+}
+nav li:hover {
+	border-bottom: 0.3rem solid red;
+	font-size: 1.1rem;
+}
+
+#logo {
+	margin-right: 5rem;
+}
+
+.banner {
+	width: 100%;
+	height: 30rem;
+	margin: 0px !important;
+	padding: 0px !important;
+	background: url("images/banner.jpg") no-repeat center;
+	background-size: cover;
+}
+
+.banner-content-wrapper{
+	height: 100%;
+	position: relative;
+	margin: auto !important;
+	padding: 0px !important;
+}
+
+.banner-content {
+	color: white;
+	position: absolute;
+	top: 10rem;
+	font-family: 'Dancing Script', cursive;
+	font-size: 3rem;	
+/*	left: 10rem;*/
+}
+
+#places-wrapper {
+	padding: 0px;
+}
+
+.sec-article {
+	height: 6rem;
+	display: flex;
+	align-items: center;
+	font-size: 2rem;
+}
+
+.star-icon {
+	width: 2rem;
+	height: 2rem;
+	margin: 1rem;
+}
+
+
+.place-img-wrapper {
+	position:relative;
+	padding: 10px !important;
+}
+
+@keyframes place-image-hover {
+  0%   {top:0rem;}
+  /*25%  {background-color:yellow; left:200px; top:0px;}*/
+  /*50%  {top:-0.5rem;}*/
+/*  75%  {background-color:green; left:0px; top:200px;}*/
+  100% {top:-0.5rem;}
+}
+
+.place-img-wrapper:hover {
+	animation-name: place-image-hover;
+	animation-duration: 0.5s;
+	animation-timing-function: ease-out;
+	animation-fill-mode: forwards;
+}
+
+.place-img {
+	width: 100%;
+	height: auto;
+	border-radius: 30px;
+}
+
+.place-img-text {
+	color: white;
+	font-family: 'Dancing Script', cursive;
+	font-size: 	3rem;
+	position: absolute;
+	top:70%;
+	left: 10%;
+}
+
+.food-col1-wrapper {
+	position:relative;
+	padding: 10px !important;
+}
+
+.food-col2-wrapper {
+/*	position:relative;*/
+	padding: 0px 10px !important;
+}
+
+@keyframes food-image-hover {
+  0%   {top:0rem;}
+  /*25%  {background-color:yellow; left:200px; top:0px;}*/
+  /*50%  {top:-0.5rem;}*/
+/*  75%  {background-color:green; left:0px; top:200px;}*/
+  100% {top:-0.5rem;}
+}
+
+.food-col1-wrapper:hover {
+	animation-name: food-image-hover;
+	animation-duration: 0.5s;
+	animation-timing-function: ease-out;
+	animation-fill-mode: forwards;
+}
+
+.food-img-wrapper {
+	position:relative;
+	padding: 10px 0px !important;
+}
+
+.food-img-wrapper:hover {
+	animation-name: food-image-hover;
+	animation-duration: 0.5s;
+	animation-timing-function: ease-out;
+	animation-fill-mode: forwards;
+}
+
+.food-img {
+	width: 100%;
+	height: auto;
+	border-radius: 30px;
+}
+
+.food-img-text {
+	color: white;
+	font-family: 'Dancing Script', cursive;
+	font-size: 	3rem;
+	/*font-style: italic;*/
+	position: absolute;
+	bottom: 3rem;
+	left: 10%;
+}
+
+.mfooter {
+	/*margin: 3rem;*/
+	padding: 3rem;
+	/*height: 10rem;*/
+}
+
+.crs-ab-sec {
+	padding-top: 66px !important;
+}
+
+.crs-n-text-sec {
+	padding-top: 66px !important;
+}
+
+.text-left-crs {
+	/*padding-left: 0rem !important;*/
+/*	font-family: 'Dancing Script', cursive;	
+	font-size: 	1.5rem;*/
+	padding-top: 3rem;
+	padding-bottom: 2rem;
+}
+
+.text-left-crs h1 {
+	font-family: 'Dancing Script', cursive;	
+	font-size: 	4rem;
+	font-weight: 700 !important;	
+	color: #F4333D;
+}
+
+.crs-wrapper {
+	padding: 0rem 0rem !important;
+}
+
+.crs-block {
+	padding-right: 0rem !important;
+	padding-left: 0rem !important;
+}
+
+.crs-cap h2{
+	font-size: 	3rem !important;
+}
+
+.crs-cap h3{
+	font-size: 	2rem !important;
+	font-style: italic;	
+}

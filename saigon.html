@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Du lịch Sài Gòn - Việt Nam - Văn hóa Ẩm thực Con người</title>
+
+	<meta charset="UTF-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!-- import google fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Open+Sans:ital,wght@0,400;0,500;0,700;0,800;1,400;1,700&family=Twinkle+Star&display=swap" rel="stylesheet">
+	<!-- stop import google fonts -->
+
+	<!-- get bootstrap5 -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</head>
+<body>
+	<!-- Load sdk javascript for facebook plugin-->
+	<div id="fb-root"></div>
+	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v12.0" nonce="ECXKzfia"></script>
+	<!-- end of loading js -->	
+	<header>
+		<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+		  <div class="container">
+		    <img src="images/vietnam.png" width="50" height="50" alt="vietnam">
+		    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		      <span class="navbar-toggler-icon"></span>
+		    </button>
+		    <div class="collapse navbar-collapse nav-ul-wrapper" id="navbarSupportedContent">
+		      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+		        <li class="nav-item border-end">
+		          <a class="nav-link active navli text-center" aria-current="page" href="index.html">Trang chủ</a>
+		        </li>
+		        <li class="nav-item border-end">
+		          <a class="nav-link navli text-center" href="qa.html">Hỏi đáp</a>
+		        </li>
+		       	<li class="nav-item border-end">
+		          <a class="nav-link navli text-center" href="about.html">Chúng tôi</a>
+		        </li>
+		      </ul>
+		    </div>
+		  </div>
+		</nav>
+	</header>
+	
+	<main>
+
+	<!-- this section for text and carousel -->
+	<div class="container">
+		<div class="row crs-n-text-sec">
+			<div class="col-lg-4 col-md-12 text-left-crs">
+				<h1> Sài Gòn không ngủ</h1>
+				<br>
+				<br>
+				<p><i>
+					Luôn luôn vận động, bất kể ngày hay đêm, Sài Gòn như là biểu tượng phát triển của Việt Nam. Từ hoạt động cho giới trẻ cho đến những câu lạc bộ cho người già. Sài Gòn không bỏ quên ai ...
+				</i>
+				</p>
+			</div>		
+
+			<div class="col-lg-8 col-md-12 crs-block">
+				<!-- this section for carousel -->
+				<div class="container crs-wrapper">
+					<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+					  <div class="carousel-indicators">
+					    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+					    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+					    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+					  </div>
+				 	<div class="carousel-inner">
+					    <div class="carousel-item active">
+					      <img src="images/saigon_crs01_e.jpg" class="d-block w-100" alt="Vietnam">
+					      <div class="carousel-caption d-none d-md-block crs-cap">
+					        <h2>Sài Gòn về đêm</h2>
+					        <h3>Sài Gòn về đêm nổi bật và lung linh với ánh đèn rực rỡ phủ khắp các công trình kiến ​​trúc, những con phố nhộn nhịp, phố đi bộ sôi động.</h3>
+					      </div>
+					    </div>
+					    <div class="carousel-item">
+					      <img src="images/saigon_crs02_e.jpg" class="d-block w-100" alt="Hanoi">
+					      <div class="carousel-caption d-none d-md-block crs-cap">
+					        <h2>Náo nhiệt</h2>
+					        <h3>Thành phố Hồ Chí Minh đã để lại ấn tượng sâu sắc của một đô thị lớn nhất, náo nhiệt nhất và năng động nhất trong cả nước.</h3>
+					      </div>
+					    </div>
+					    <div class="carousel-item">
+					      <img src="images/saigon_crs03_e.jpg" class="d-block w-100" alt="SaiGon">
+					      <div class="carousel-caption d-none d-md-block crs-cap">
+					        <h2>Cuộc sống</h2>
+					        <h3>Phóng khoáng mà hài hòa, thích nghi với cuộc sống khai hoang mở đất từ xa xưa.</h3>
+					      </div>
+					    </div>
+				  </div>
+				  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+				    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				    <span class="visually-hidden">Previous</span>
+				  </button>
+				  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+				    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				    <span class="visually-hidden">Next</span>
+				  </button>
+				</div>	
+				</div>
+				<!-- end of carousel -->
+		</div>	
+	</div>
+
+
+	</div>
+	<!-- end of carousel and text section -->
+
+		<!-- this section is for places -->
+		<section id="places-wrapper" class="container">
+			<div class="sec-article">
+				<img class="star-icon" src="images/star.png" alt="star">
+				Những địa điểm phải ghé qua!
+			</div>
+			<div class="row">
+				<div class="col-lg-4 col-sm-12 place-img-wrapper">
+					<a href="hanoi.html"><img class="place-img" src="images/hanoi1.jpg" alt="Hà nội"></a>  
+					<h3 class="place-img-text">Hà nội cổ kính</h3>
+				</div>
+				<div class="col-lg-4 col-sm-12 place-img-wrapper">
+					<a href="hue.html"><img class="place-img" src="images/hue.jpg" alt="Huế"></a>
+					<h3 class="place-img-text">Huế mộng mơ</h3>
+				</div>
+				<div class="col-lg-4 col-sm-12 place-img-wrapper">
+					<a href="saigon.html"><img class="place-img" src="images/saigon.jpg" alt="Sài Gòn"></a>
+					<h3 class="place-img-text">Sài Gòn năng động</h3>
+				</div>
+			</div>
+		</section>
+	</main>
+
+<footer>
+	<div class="container-fluid mfooter text-center bg-light">
+		<h4>Vietnam Traveling Agency - FX14966</h4>
+		Connect us on @Facebook
+		<div class="fb-share-button" data-href="https://hadevsoft.000webhostapp.com/" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fhadevsoft.000webhostapp.com%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Chia sẻ</a></div>
+	</div>
+</footer>
+
+</body>
+</html>
